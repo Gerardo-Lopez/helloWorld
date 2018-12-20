@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Race Final</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <!--Search bar-->
+    <div>
+      <input type="text" placeholder="Search..">
+    </div>
+
+    <!--Pages-->
+    <div id="races">
+        <table>
+            <thead>
+                <th>ID</th>
+                <th>Date</th>
+                <th>Start Time</th>
+                <th>Location</th>
+                <th>Past Races</th>
+                <th>
+                    <button class="add action">
+                        <img src="img/racing-add.png" />
+                    </button>
+                </th>
+            </thead>
+            <tbody>
+                <td>Test Race</td>
+                <td>02/24/2019</td>
+                <td>22</td>
+                <td>On Campus</td>
+
+            </tbody>
+        </table>
+
+    </div>
+
+    <div id="modalBox" class="modal">
+
+         
+         
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <strong>Race Details</strong>
+            <div>
+                <label for="raceID">Race ID</label>
+                <input id="raceID" type="text" />
+                
+                <label for="raceDate">Race Date</label>
+                <input id="raceDate" type="date" />
+            </div>
+            <div>
+                <label for="startTime">Start Time</label>
+                <input id="startTime" type="number"/>
+                <label for="startTime">24 Hour</label>
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input id="password" type="text"/>
+            </div>
+            <div>
+                <span>Race Location</label>
+                <textarea id="raceLocation" rows="5"></textarea>
+            </div>
+            <div>
+                <button class="save">Save</button>
+            </div>
+        </div>
+
+    </div>
+    
+    <br><br>
+    
+    <a href="rubric.html">Updated Rubric Here</a>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="race.js"></script>
+
+</body>
+
+</html>
