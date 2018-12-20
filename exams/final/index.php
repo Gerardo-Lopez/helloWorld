@@ -29,7 +29,7 @@
         $dbConn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
         
         // Build the select statement (assuming the posted data has a field called dataFromPost)
-        $whereSql = "SELECT * FROM final INNER JOIN status s ON p.status_id = s.id LEFT OUTER JOIN type t ON p.type_id = t.id WHERE status_id <> 0";
+        $whereSql = "SELECT * FROM race_details INNER JOIN ";
         
         // The prepare caches the SQL statement for N number of parameters imploded above
         $whereStmt = $dbConn->prepare($whereSql);
