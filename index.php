@@ -24,6 +24,10 @@
             <br />
             <a href="homework/4/index.html">Homework 4</a>
             <br />
+            
+            <br />
+            <br />
+            <a href="exams/final/index.html">Final Exam</a>
 
             
 
